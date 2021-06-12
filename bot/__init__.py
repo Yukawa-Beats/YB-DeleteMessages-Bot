@@ -27,14 +27,14 @@ load_dotenv("config.env")
 
 
 # The Telegram API things
-# Get these values from my.telegram.org or Telegram: @useTGxBot
+# Get these values from my.telegram.org or Telegram: @MT_MyTelegramOrg_BoT
 API_HASH = get_config("API_HASH", should_prompt=True)
 APP_ID = int(get_config("APP_ID", should_prompt=True))
 # get a token from @BotFather
-TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", should_prompt=True)
+TG_BOT_TOKEN = get_config("MT_BOT_TOKEN", should_prompt=True)
 # string session for running as user
-TG_USER_SESSION = get_config("TG_USER_SESSION", should_prompt=True)
-TG_BOT_SESSION = get_config("TG_BOT_SESSION", "bot")
+TG_USER_SESSION = get_config("MT_USER_SESSION", should_prompt=True)
+TG_BOT_SESSION = get_config("MT_BOT_SESSION", "bot")
 # Number of update workers to use.
 # 4 is the recommended (and default) amount,
 # but your experience may vary.
@@ -42,7 +42,7 @@ TG_BOT_SESSION = get_config("TG_BOT_SESSION", "bot")
 # wont necessarily speed up your bot,
 # given the amount of sql data accesses,
 # and the way python asynchronous calls work.
-TG_BOT_WORKERS = int(get_config("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(get_config("MT_BOT_WORKERS", "4"))
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "MessageDeletErBot.log")
 # number of messages that can be deleted in One Request, in Telegram
@@ -73,8 +73,8 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
-GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+REQD_PERMISSIONS = "https://t.me/Mo_Tech_YT/178"
+GIT_REPO_LINK = "https://github.com/MoTechYT/MT-DeleteMessages-Bot"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
     "I'm a bot that can delete <s>all</s> your channel or supergroup messages. "
@@ -82,6 +82,8 @@ START_MESSAGE = get_config("START_MESSAGE", (
     f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
     f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
+    "\n\n"
+    "<b>Support Group @Mo_Tech_Group</b>"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
