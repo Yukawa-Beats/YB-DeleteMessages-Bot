@@ -1,6 +1,6 @@
 {
-    "name": "Message DeletEr Bot",
-    "description": "Modular  Telegram Bot powered by @PyroGram!",
+    "name": "MT Message DeletEr Bot",
+    "description": "Modular  Telegram Bot powered by @Mo_Tech_YT!",
     "keywords": [
         "telegram",
         "bot",
@@ -12,21 +12,21 @@
         "administrators",
         "messages"
     ],
-    "repository": "https://github.com/SpEcHiDe/DeleteMessagesRoBot",
-    "website": "https://telegram.dog/SpEcHlDe",
-    "success_url": "https://t.me/SpEcHlDe/857",
+    "repository": "https://github.com/MoTechYT/MT-DeleteMessages-Bot",
+    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
     "env": {
         "APP_ID": {
-            "description": "Get this value from my.telegram.org! Please do not steal"
+            "description": "Get this value from my.telegram.org or @MT_MyTelegramOrg_Bot"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org! Please do not steal"
+            "description": "Get this value from my.telegram.org or @MT_MyTelegramOrg_Bot"
         },
-        "TG_BOT_TOKEN": {
+        "MT_BOT_TOKEN": {
             "description": "Obtain a Telegram bot token by contacting @BotFather"
         },
-        "TG_USER_SESSION": {
-            "description": "Create a PyroGram User Session, using https://generatestringsession.spechide.repl.run/"
+        "MT_USER_SESSION": {
+            "description": "Create a PyroGram User Session, using @MT_UserSession_BoT"
         }
     },
     "buildpacks": [
