@@ -1,6 +1,6 @@
 {
-    "name": "MT Message DeletEr Bot",
-    "description": "Modular  Telegram Bot powered by @Mo_Tech_YT!",
+    "name": "YB Message DeletEr Bot",
+    "description": "Bot For Message Delete",
     "keywords": [
         "telegram",
         "bot",
@@ -12,21 +12,21 @@
         "administrators",
         "messages"
     ],
-    "repository": "https://github.com/MoTechYT/MT-DeleteMessages-Bot",
-    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "repository": "https://github.com/Yukawa-Beats/YB-DeleteMessages-Bot",
+    "website": "https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA",
+    "success_url": "https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA",
     "env": {
         "APP_ID": {
-            "description": "Get this value from my.telegram.org or @MT_MyTelegramOrg_Bot"
+            "description": "Get this value from my.telegram.org "
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @MT_MyTelegramOrg_Bot"
+            "description": "Get this value from my.telegram.org t"
         },
         "MT_BOT_TOKEN": {
             "description": "Obtain a Telegram bot token by contacting @BotFather"
         },
         "MT_USER_SESSION": {
-            "description": "Create a PyroGram User Session, using @MT_UserSession_BoT"
+            "description": "Create a PyroGram User Session"
         }
     },
     "buildpacks": [
