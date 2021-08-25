@@ -27,7 +27,7 @@ load_dotenv("config.env")
 
 
 # The Telegram API things
-# Get these values from my.telegram.org or Telegram: @MT_MyTelegramOrg_BoT
+# Get these values from my.telegram.org or Telegram
 API_HASH = get_config("API_HASH", should_prompt=True)
 APP_ID = int(get_config("APP_ID", should_prompt=True))
 # get a token from @BotFather
@@ -73,8 +73,8 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/Mo_Tech_YT/178"
-GIT_REPO_LINK = "https://github.com/MoTechYT/MT-DeleteMessages-Bot"
+REQD_PERMISSIONS = "https://t.me/ybdemochannel"
+GIT_REPO_LINK = "https://github.com/Yukawa-Beats/YB-DeleteMessages-Bot"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
     "<b>I'm a bot that can delete <s>all</s> your channel or supergroup messages</b>. "
@@ -83,7 +83,7 @@ START_MESSAGE = get_config("START_MESSAGE", (
     "\n\n"
     f"<b>In case of issues, contact</b> 👉 {GIT_REPO_LINK} 👈"
     "\n\n"
-    "<b>Support Group @Mo_Tech_Group</b>"
+    "<b> Join Channel @ybdemochannel</b>"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
